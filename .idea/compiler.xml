@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-learning-demo" />
+        <module name="springboot-ssm" />
+        <module name="springboot-thymeleaf" />
+        <module name="springboot-actuator" />
+        <module name="springboot-filter" />
+        <module name="springboot-exception" />
+        <module name="springboot-ssm-blog" />
+        <module name="springboot-shiro" />
+        <module name="springboot-jdbc" />
+        <module name="springboot-hutools" />
+        <module name="springboot-blog" />
+        <module name="springboot-redis" />
+        <module name="springboot-swagger" />
+        <module name="springboot-jpa" />
+        <module name="springboot-validated" />
+        <module name="springboot-elasticsearch" />
+        <module name="springboot-security-token" />
+        <module name="springboot-log4j2" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-actuator" options="-parameters" />
+      <module name="springboot-blog" options="-parameters" />
+      <module name="springboot-elasticsearch" options="-parameters" />
+      <module name="springboot-exception" options="-parameters" />
+      <module name="springboot-filter" options="-parameters" />
+      <module name="springboot-hutools" options="-parameters" />
+      <module name="springboot-jdbc" options="-parameters" />
+      <module name="springboot-jpa" options="-parameters" />
+      <module name="springboot-learning-demo" options="-parameters" />
+      <module name="springboot-log4j2" options="-parameters" />
+      <module name="springboot-redis" options="-parameters" />
+      <module name="springboot-security-token" options="-parameters" />
+      <module name="springboot-shiro" options="-parameters" />
+      <module name="springboot-ssm" options="-parameters" />
+      <module name="springboot-ssm-blog" options="-parameters" />
+      <module name="springboot-swagger" options="-parameters" />
+      <module name="springboot-thymeleaf" options="-parameters" />
+      <module name="springboot-validated" options="-parameters" />
+    </option>
+  </component>
+</project>
