@@ -36,6 +36,7 @@
     <module>springboot-blog</module>
     <module>springboot-validated</module>
     <module>springboot-security-token</module>
+    <module>springboot-security</module>
   </modules>
   
   <dependencies>
